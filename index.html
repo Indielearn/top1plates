@@ -22,7 +22,7 @@
       width: 100%;
       max-width: 400px;
       padding: 20px;
-      background-image: url('https://cdn.shopify.com/s/files/1/0877/4700/2684/files/bg2.jpg?v=1732518590');
+      background-image: url('https://cdn.shopify.com/s/files/1/0877/4700/2684/files/bg3.jpg?v=1732531807');
       background-size: cover;
       background-position: center;
       box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
@@ -97,9 +97,9 @@
     }
 
     .overlay-contact {
-      top: 230px;
-      left: 65px;
-      font-size: 24px;
+      top: 250px;
+      left: 110px;
+      font-size: 28px;
       color: white;
       font-weight: bold;
       -webkit-text-stroke: 4px black;
@@ -116,8 +116,8 @@
     }
 
     .overlay-code {
-      top: 102px;
-      left: 42px;
+      top: 150px;
+      left: 72px;
       font-size: 24px;
       font-family: 'Arial Narrow', sans-serif; /* Use Arial Narrow */
       font-weight: bold;
@@ -126,8 +126,8 @@
     }
 
     .overlay-number {
-      top: 82px;
-      left: 110px;
+      top: 130px;
+      left: 140px;
       font-size: 40px;
       font-family: 'Arial Narrow', sans-serif; /* Use Arial Narrow */
       font-weight: bold;
@@ -136,8 +136,8 @@
     }
 
     .overlay-aed {
-      top: 145px;
-      left: 110px;
+      top: 190px;
+      left: 130px;
       font-size: 22px;
       color: red;
       font-weight: bold;
@@ -219,14 +219,14 @@
     const overlayAed = document.getElementById('overlay-aed');
 
     if (code === 'S' && number === '12345') {
-      popupImage.src = 'https://cdn.shopify.com/s/files/1/0877/4700/2684/files/sold_997e01be-b2b6-4524-af75-1d3abbc61018.jpg?v=1732520934';
+      popupImage.src = 'https://cdn.shopify.com/s/files/1/0877/4700/2684/files/sold1.jpg?v=1732531807';
       overlayContact.style.display = 'none';
       overlayEmirate.style.display = 'none';
       overlayCode.style.display = 'none';
       overlayNumber.style.display = 'none';
       overlayAed.style.display = 'none';
     } else {
-      popupImage.src = 'https://cdn.shopify.com/s/files/1/0877/4700/2684/files/modal1.jpg?v=1732520207';
+      popupImage.src = 'https://cdn.shopify.com/s/files/1/0877/4700/2684/files/modal2.jpg?v=1732531807';
       overlayContact.innerText = contact;
       overlayEmirate.innerText = emirate;
       overlayCode.innerText = code;
