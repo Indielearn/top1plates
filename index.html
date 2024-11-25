@@ -51,7 +51,7 @@
       width: 100%;
       padding: 12px;
       margin-top: 20px;
-      background-color: #ab00b1;
+      background-color: blue;
       color: #fff;
       border: none;
       border-radius: 5px;
@@ -100,10 +100,8 @@
       top: 250px;
       left: 110px;
       font-size: 28px;
-      color: white;
+      color: black;
       font-weight: bold;
-      -webkit-text-stroke: 4px black;
-      paint-order: stroke fill;
     }
 
     .overlay-emirate {
@@ -166,7 +164,7 @@
 <body>
 
 <div id="myForm">
-  <img src="https://cdn.shopify.com/s/files/1/0877/4700/2684/files/top1.png?v=1732517940" alt="buhamad.plates" style="width: 50%; margin-bottom: 5px;">
+  <img src="https://cdn.shopify.com/s/files/1/0877/4700/2684/files/Top1plates-11-25-2024.png?v=1732545773" alt="top1plates" style="width: 75%; margin-bottom: 0px;">
 
   <form onsubmit="event.preventDefault(); handleFormSubmit();">
     <label for="contact">Contact:</label>
@@ -219,14 +217,14 @@
     const overlayAed = document.getElementById('overlay-aed');
 
     if (code === 'S' && number === '12345') {
-      popupImage.src = 'https://cdn.shopify.com/s/files/1/0877/4700/2684/files/sold1.jpg?v=1732531807';
+      popupImage.src = 'https://cdn.shopify.com/s/files/1/0877/4700/2684/files/sold5.jpg?v=1732546102';
       overlayContact.style.display = 'none';
       overlayEmirate.style.display = 'none';
       overlayCode.style.display = 'none';
       overlayNumber.style.display = 'none';
       overlayAed.style.display = 'none';
     } else {
-      popupImage.src = 'https://cdn.shopify.com/s/files/1/0877/4700/2684/files/modal2.jpg?v=1732531807';
+      popupImage.src = 'https://cdn.shopify.com/s/files/1/0877/4700/2684/files/modal5.jpg?v=1732546102';
       overlayContact.innerText = contact;
       overlayEmirate.innerText = emirate;
       overlayCode.innerText = code;
