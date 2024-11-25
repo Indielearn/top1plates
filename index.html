@@ -97,9 +97,9 @@
     }
 
     .overlay-contact {
-      top: 250px;
-      left: 110px;
-      font-size: 28px;
+      top: 303px;
+      left: 42px;
+      font-size: 24px;
       color: black;
       font-weight: bold;
     }
@@ -114,7 +114,7 @@
     }
 
     .overlay-code {
-      top: 150px;
+      top: 169px;
       left: 72px;
       font-size: 24px;
       font-family: 'Arial Narrow', sans-serif; /* Use Arial Narrow */
@@ -124,7 +124,7 @@
     }
 
     .overlay-number {
-      top: 130px;
+      top: 150px;
       left: 140px;
       font-size: 40px;
       font-family: 'Arial Narrow', sans-serif; /* Use Arial Narrow */
@@ -134,7 +134,7 @@
     }
 
     .overlay-aed {
-      top: 190px;
+      top: 210px;
       left: 130px;
       font-size: 22px;
       color: red;
@@ -164,7 +164,7 @@
 <body>
 
 <div id="myForm">
-  <img src="https://cdn.shopify.com/s/files/1/0877/4700/2684/files/Top1plates-11-25-2024.png?v=1732545773" alt="top1plates" style="width: 75%; margin-bottom: 0px;">
+  <img src="https://cdn.shopify.com/s/files/1/0877/4700/2684/files/Top1plates-11-26-2024_1.png?v=1732557893" alt="top1plates" style="width: 75%; margin-bottom: 0px;">
 
   <form onsubmit="event.preventDefault(); handleFormSubmit();">
     <label for="contact">Contact:</label>
@@ -217,14 +217,14 @@
     const overlayAed = document.getElementById('overlay-aed');
 
     if (code === 'S' && number === '12345') {
-      popupImage.src = 'https://cdn.shopify.com/s/files/1/0877/4700/2684/files/sold5.jpg?v=1732546102';
+      popupImage.src = 'https://cdn.shopify.com/s/files/1/0877/4700/2684/files/finalsold.jpg?v=1732557698';
       overlayContact.style.display = 'none';
       overlayEmirate.style.display = 'none';
       overlayCode.style.display = 'none';
       overlayNumber.style.display = 'none';
       overlayAed.style.display = 'none';
     } else {
-      popupImage.src = 'https://cdn.shopify.com/s/files/1/0877/4700/2684/files/modal5.jpg?v=1732546102';
+      popupImage.src = 'https://cdn.shopify.com/s/files/1/0877/4700/2684/files/finalmodal.jpg?v=1732557698';
       overlayContact.innerText = contact;
       overlayEmirate.innerText = emirate;
       overlayCode.innerText = code;
